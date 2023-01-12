@@ -32,40 +32,47 @@ It is important to note that usage of the OpenAI API is subject to the terms and
 ## Directory Structure (note that as of 1/12/2023 some test programs are still in development)
 
 .
-├── Smart_surveys/
-│   ├── code
-│   │   ├── __init__.py
-│   │   ├── Question_Upload_Data_Generation/
-│   │   │   ├── __init__.py
-│   │   │   ├── data_generation.py
-│   │   │   └── question_upload.py
-│   │   ├── Storage/
-│   │   │   ├── __init__.py
-│   │   │   └── database.py
-│   │   ├── Text_Mining_Insights_Generation/
-│   │   │   ├── __init__.py
-│   │   │   ├── insights_generation.py
-│   │   │   ├── report_generation.py
-│   │   │   ├── text_mining.py
-│   │   │   └── utils_mining.py
-│   │   └── Survey_Distribution_Data_Collection/
-│   │       ├── __init__.py
-│   │       ├── data_collection.py
-│   │       ├── survey_distribution.py
-│   │       └── utils_distribution.py
-│   ├── tests/
-│   │   ├── Question_Upload_Data_Generation/
-│   │   │   ├── test_data_generation.py
-│   │   │   └── test_question_upload.py
-│   │   ├── Storage/
-│   │   │   └── test_database.py
-│   │   ├── Text_Mining_Insights_Generation/
-│   │   │   ├── test_insights_generation.py
-│   │   │   ├── test_report_generation.py
-│   │   │   ├── test_text_mining.py
-│   │   │   └── test_utils_mining.py
-│   │   └── Survey_Distribution_Data_Collection/
-
+└── Smart_surveys/
+    ├── smart_surveys/
+    │   ├── __init__.py
+    │   ├── question_upload/
+    │   │   ├── __init__.py
+    │   │   ├── data_generation.py
+    │   │   └── question_upload.py
+    │   ├── storage/
+    │   │   ├── __init__.py
+    │   │   └── database.py
+    │   ├── text_mining/
+    │   │   ├── __init__.py
+    │   │   ├── insights_generation.py
+    │   │   ├── report_generation.py
+    │   │   ├── text_mining.py
+    │   │   └── utils_mining.py
+    │   └── survey_distribution/
+    │       ├── __init__.py
+    │       ├── data_collection.py
+    │       ├── survey_distribution.py
+    │       └── utils_distribution.py
+    ├── tests/
+    │   ├── question_upload/
+    │   │   ├── test_data_generation.py
+    │   │   └── test_question_upload.py
+    │   ├── storage/
+    │   │   ├── test_database.py
+    │   ├── text_mining/
+    │   │   ├── test_insights_generation.py
+    │   │   ├── test_report_generation.py
+    │   │   ├── test_text_mining.py
+    │   │   └── test_utils_mining.py
+    │   └── survey_distribution/
+    │       ├── test_data_collection.py
+    │       ├── test_survey_distribution.py
+    │       └── test_utils_distribution.py
+    ├── setup.py
+    ├── README.md
+    ├── .gitignore
+    ├── requirements.txt
+    └── smart_surveys_Recipe.docx
 
 ## Contribution
 
