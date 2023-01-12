@@ -1,14 +1,14 @@
-#Smart Surveys
+# Smart Surveys
 
-##Motivation
+## Motivation
 
 Conducting surveys is a common method for gathering data and understanding different perspectives. However, the process of creating and distributing surveys can be time-consuming and error-prone. Additionally, analyzing survey data can be difficult and may require specialized knowledge and tools. Smart Surveys aims to overcome these drawbacks by leveraging state-of-the-art Natural Language Processing models and techniques to simplify the process of generating both surveys and insights.
 
-##Objective
+## Objective
 
 The objective of Smart Surveys is to design and implement an architecture that can automatically generate professional and custom questions for surveys, distribute and collect the surveys, and offer advanced text mining and AI capabilities for generating insights and full reports. This package can be of great help for undergraduate students conducting independent research for the first time as well as for course evaluations, report generation, automatic insight extraction, and other survey-related analysis.
 
-##Features
+## Features
 
 Generate professional and custom questions for surveys using state-of-the-art Natural Language Processing models
 Distribute and collect surveys using various methods such as email and web-based platforms
@@ -17,7 +17,7 @@ Store and retrieve data and results using a database management system
 Getting Started
 To use Smart Surveys, you will need to install the package and its dependencies. Once installed, you can use the package to generate questions, distribute surveys, collect responses, and generate insights and reports.
 
-##Documentation
+## Documentation
 
 Detailed documentation and usage examples can be found in the package's documentation.
 
@@ -74,10 +74,10 @@ It is important to note that usage of the OpenAI API is subject to the terms and
     ├── requirements.txt
     └── smart_surveys_Recipe.docx
 
-##Contribution
+## Contribution
 
 We welcome contributions to Smart Surveys. If you are interested in contributing, please feel free to reach out to us or submit a pull request.
 
-##License
+## License
 
-Smart Surveys is licensed under [insert license here].
+Smart Surveys is not licensed yet.
