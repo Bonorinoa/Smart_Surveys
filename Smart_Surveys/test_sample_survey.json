@@ -1,0 +1,105 @@
+{
+    "survey_responses": [
+        {
+            "respondent_id": 1,
+            "response_length": "short",
+            "response": "The course was well-organized and the instructor was great."
+        },
+        {
+            "respondent_id": 2,
+            "response_length": "medium",
+            "response": "The instructor was knowledgeable and approachable. I felt comfortable asking questions. The assignments were challenging but helped me to solidify my understanding of the material. Overall, I would highly recommend this course."
+        },
+        {
+            "respondent_id": 3,
+            "response_length": "medium",
+            "response": "The course material was very informative and well-organized. The instructor was engaging and the assignments were challenging. I would recommend this course."
+        },
+        {
+            "respondent_id": 4,
+            "response_length": "long",
+            "response": "I found the course to be a valuable learning experience. The material was well-organized and covered in-depth. The instructor was knowledgeable and approachable. The assignments were challenging but helped me to gain a deeper understanding of the subject. I would highly recommend this course."
+        },
+        {
+            "respondent_id": 5,
+            "response_length": "short",
+            "response": "The course was informative and the instructor was knowledgeable."
+        },
+        {
+            "respondent_id": 6,
+            "response_length": "medium",
+            "response": "The course material was excellent and the instructor was engaging. The assignments were challenging but helped me to develop my critical thinking skills. I would recommend this course."
+        },
+        {
+            "respondent_id": 7,
+            "response_length": "long",
+            "response": "I took this course with the hope of learning more about the subject and I can say that I was not disappointed. The instructor was exceptional, knowledgeable and approachable. The material was very interesting and well-organized. The assignments were challenging but very useful in terms of consolidating my understanding of the material. The readings were also very informative and helped to enrich my understanding of the subject. Overall, I found the course to be a valuable and enlightening experience. I would definitely recommend this course to others."
+        },
+        {
+            "respondent_id": 8,
+            "response_length": "short",
+            "response": "The course was informative and the instructor was great."
+        },
+        {
+            "respondent_id": 9,
+            "response_length": "medium",
+            "response": "The course material was well-organized and the instructor was knowledgeable. The assignments were challenging but helped me to solidify my understanding of the material. I would recommend this course."
+        },
+        {
+            "respondent_id": 10,
+            "response_length": "medium",
+            "response": "The course content was excellent and the instructor was engaging. The assignments were challenging and thought-provoking. Overall, I found the course to be a valuable learning experience."
+        },
+        {
+            "respondent_id": 11,
+            "response_length": "medium",
+            "response": "The course material was informative, but the instructor's teaching style did not work well for me. The assignments were too easy and did not challenge me."
+        },
+        {
+            "respondent_id": 12,
+            "response_length": "long",
+            "response": "The instructor's lack of knowledge and poor communication skills made it difficult for me to follow along and understand the material. The assignments were poorly designed and not related to the course content. I would not recommend this course to others."
+        },
+        {
+            "respondent_id": 13,
+            "response_length": "medium",
+            "response": "The course material was good, but the instructor's delivery made it hard to stay engaged. I felt the assignments were too simple and did not provide enough opportunity to apply the material."
+        },
+        {
+            "respondent_id": 14,
+            "response_length": "medium",
+            "response": "The course was well-organized and the instructor was knowledgeable, but the course was not what I was expecting. I found it too easy and not challenging enough for me."
+        },
+        {
+            "respondent_id": 15,
+            "response_length": "medium",
+            "response": "The course material was interesting and well-organized, but the assignments were not well-structured and there was a lack of feedback from the instructor on our progress."
+        },
+        {
+            "respondent_id": 16,
+            "response_length": "medium",
+            "response": "I thought the course was pretty average. The instructor was okay, but I didn't feel that the assignments were very challenging. I didn't learn as much as I was hoping to."
+            },
+            {
+            "respondent_id": 17,
+            "response_length": "short",
+            "response": "It was an average course. The instructor was fine."
+            },
+            {
+            "respondent_id": 18,
+            "response_length": "medium",
+            "response": "The course was good, and the instructor was great, but I didn't enjoy the assignments as much as I thought I would. "
+            },
+            {
+            "respondent_id": 19,
+            "response_length": "long",
+            "response": "The course was good, but I was a bit disappointed in the instructor's lack of enthusiasm and poor communication skills. The assignments were too easy and I didn't feel challenged. Overall, I felt like I didn't learn as much as I could have."
+            },
+            {
+            "respondent_id": 20,
+            "response_length": "medium",
+            "response": "The course was aight and the instructor was knowledgeable, but I didn't feel like the assignments were challenging enough. I didn't learn as much as I was expecting to."
+            }
+        
+    ]
+}

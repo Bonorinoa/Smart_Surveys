@@ -32,16 +32,18 @@ class SmartInsights():
         openai.api_key = api_key
         
         features = data.columns.tolist()
+        responses = [data["survey_responses"][idx]['response'] for idx in range(len(data))]
         
-        prompt = f"Given the following data:\n"
+        prompt = f"Given the following variables [{str(features)}] and responses [{str(responses)}]," \
+               + f" what are the strengths and weaknesses of the surveyed object?"
         
         try:
             completions = openai.Completion.create(engine="text-davinci-003", 
                                                 prompt=prompt, 
-                                                max_tokens=1024, 
-                                                n=1,
-                                                stop=None,
-                                                temperature=0.5)
+                                                max_tokens=max_tokens, 
+                                                n=n,
+                                                stop=stop,
+                                                temperature=temperature)
             summary = completions.choices[0].text
             
         except openai.error.OpenAiError as e:
@@ -49,4 +51,5 @@ class SmartInsights():
         
         return summary               
     
+
     
