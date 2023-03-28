@@ -62,7 +62,7 @@ atlas_saved_results = sample_db.load_results("sample_atlasSurvey_TEST")
 
 # generate insights
 atlas_test_df = pd.DataFrame(atlas_saved_results)
-print(atlas_test_df)
+#print(atlas_test_df)
 
 insights = SmartInsights().atlas_analysis(api_key="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",
                                           data=atlas_test_df,
@@ -70,4 +70,11 @@ insights = SmartInsights().atlas_analysis(api_key="sk-NePvLhiAtqT6ILzRBQb0T3Blbk
                                           max_tokens=500,
                                           temperature=0.75)
 
-print(insights)
+#print(insights)
+## Test insight using text-davinci-003 for sample questions/survey responses
+# aking care of their physical health with a regular exercise routine and healthy diet, and they are aware of what brings them purpose and motivated to pursue it. 
+# They demonstrate empathy and caring in their desire to improve the day of a dear friend or relative.
+# Overall, this individual appears to have a strong sense of self-confidence, self-esteem, and self-worth. 
+# They have a good understanding of what brings them purpose and joy in life, and are taking active steps to pursue those goals. 
+# They are also showing kindness, generosity, and compassion towards those around them. 
+# There is a good balance between optimism and pessimism, and a healthy sense of anticipation and trust in the future. 
