@@ -1,0 +1,35 @@
+{
+    "survey_responses": [
+        {
+            "respondent_id": 1,
+            "response_length": "likert",
+            "response": 6
+        },
+        {
+            "respondent_id": 2,
+            "response_length": "likert",
+            "response": 8
+        },
+        {
+            "respondent_id": 3,
+            "response_length": "short",
+            "response": "I feel in good physical health and try to maintain a 6-day workout routine. I mix cardio and strength training. I also try to eat a healthy diet and get plenty of sleep. Lately I have been failing on this by relapsing to nicotine, which has affected my sleep, due to a period of stress."
+        },
+        {
+            "respondent_id": 4,
+            "response_length": "short",
+            "response": "For me, purpose is all about nourishing curiosity. My curiosity drives me towards new, ever more exciting, places and challenges. I perceive meaning or purpose to be exactly this quest for new adventures, both physical and intellectual."
+        },
+        {
+            "respondent_id": 5,
+            "response_length": "likert",
+            "response": 7
+        },
+        {
+            "respondent_id": 6,
+            "response_length": "short",
+            "response": "My parents, specially my mom, loves when I call and share what I am up to at school or what new crazy adventures im planning. So, I try to always make at least a litte bit of time every day to call them."
+        }
+        
+    ]
+}

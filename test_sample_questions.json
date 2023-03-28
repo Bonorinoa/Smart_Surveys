@@ -1,0 +1,34 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "type": "likert",
+            "question": "Please imagine a ladder with steps numbered from zero at the bottom to ten at the top. The top of the ladder represents the best possible life for you, and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?  (1 = Strongly Disagree, 10 = Strongly Agree)"
+        },
+        {
+            "id": 2,
+            "type": "likert",
+            "question": " On which step do you think you will stand about five years from now?  (1 = Strongly Disagree, 10 = Strongly Agree)"
+        },
+        {
+            "id": 3,
+            "type": "short",
+            "question": "Please describe, in a few sentences, your physical health and workout routine."
+        },
+        {
+            "id": 4,
+            "type": "short",
+            "question": "Briefly, what do you perceive a meaningful or purposeful life to be?"
+        },
+        {
+            "id": 5,
+            "type": "likert",
+            "question": "Agree or Disagree: I am aware of what brings me purpose and I am motivated to pursue it. (1 = Strongly Disagree, 10 = Strongly Agree)"
+        },
+        {
+            "id": 6,
+            "type": "short",
+            "question": "In a few sentences, think of a dear friend or relative and write how you would improve their day."
+        }
+    ]
+}

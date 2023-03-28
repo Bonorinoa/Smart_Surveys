@@ -2,9 +2,12 @@ from typing import Union
 import pandas as pd
 import json
 import os
+import smtplib
 
 class SurveyDistribution:
-    def __init__(self, emails: Union[str, list] = None, survey: Union[str, pd.DataFrame] = None):
+    def __init__(self, 
+                 emails: Union[str, list] = None, 
+                 survey: Union[str, pd.DataFrame] = None):
         """
         Initialize the class with any necessary attributes or parameters
         :param emails: a list of emails or a file path containing the emails to send the survey to
@@ -27,11 +30,20 @@ class SurveyDistribution:
         """
         pass
 
-    def send_surveys(self):
+    def send_surveys_by_email(self, user_email: str, user_password: str):
         """
         Send out the surveys to the provided email addresses
         """
-        pass
+
+        if self.distribution_method == 'email':
+            # Send survey via email
+            server = smtplib.SMTP('smtp.gmail.com', 587)
+            server.starttls()
+            server.login(user_email, user_password)
+
+            for email in self.emails:
+                msg = f'Subject: Survey\n\nPlease follow the link to complete the survey: {self.survey_link}'
+                server.sendmail(user_email, email, msg)
 
     def collect_responses(self):
         """

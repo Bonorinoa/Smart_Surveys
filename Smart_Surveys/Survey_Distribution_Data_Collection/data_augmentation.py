@@ -1,0 +1,1 @@
+# class for connecting to other data sources and performing data augmentation

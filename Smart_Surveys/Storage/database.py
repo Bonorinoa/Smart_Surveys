@@ -30,25 +30,6 @@ class Database:
         else:
             raise TypeError(f"Invalid type for questions: {type(questions)}. Only list or pandas series are supported.")
         
-    def load_questions(self, file_name: str, format: str = "json") -> Union[List[str], pd.Series]:
-        """
-        Loads the questions from the specified file
-        :param file_name: name of the file to load the questions from
-        :param format: format of the file (json or csv)
-        :return: list of questions or pandas series containing the questions
-        """
-        file_path = os.path.join(self.question_folder_path, file_name)
-        if not os.path.exists(file_path):
-            raise FileNotFoundError(f"File not found: {file_path}")
-
-        if format == "json":
-            with open(file_path, "r") as f:
-                questions = json.load(f)
-                return questions
-        elif format == "csv":
-            return pd.read_csv(file_path)
-        else:
-            raise ValueError(f"Invalid file format: {format}. Only json and csv are supported.")
         
     def save_results(self, results: Union[Dict, pd.DataFrame], file_name: str):
         """
@@ -66,6 +47,18 @@ class Database:
             results.to_json(os.path.join(self.results_folder_path, file_name))
         else:
             raise TypeError(f"Invalid type for results: {type(results)}. Only dictionary or pandas DataFrame are supported.")
+
+    def load_results(self, file_name: str, format: str = "json") -> Union[Dict, pd.DataFrame]:
+        """
+        Loads the saved results from the specified file
+        :param file_name: name of the file to load the results from
+        :param format: format of the file (json or csv)
+        """
+        
+        with open(os.path.join(self.results_folder_path, file_name), "r") as f:
+            results = pd.read_json(f)
+            
+            return results
 
     def load_questions(self, file_name: str, format: str = "json") -> Union[List[str], pd.Series]:
         """
